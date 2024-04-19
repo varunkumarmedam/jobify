@@ -1,0 +1,83 @@
+.per-main-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    padding: 10px 200px;
+    justify-content: center;
+    align-content: center;
+}
+
+.permissions-page-head {
+    margin: 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+}
+
+.per-sub-head {
+    margin-top: 5px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: grey;
+}
+
+.per-sub-head a {
+    text-decoration: none;
+}
+.per-block-body{
+    display: flex;
+    gap: 30px;
+}
+.per-block-icon{
+    font-size: 20px;
+    margin-right: 8px;
+}
+.per-block-head {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.per-block-content {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    margin: 0;
+}
+
+.per-terms-body {
+    background: #DBEAFE;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.per-terms-head {
+    /* font-family: Switzer; */
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30.76px;
+    text-align: left;
+}
+.per-safe-icon{
+    color: #22C55E;
+    margin-right: 10px;
+    margin-top: -3px;
+    font-size: 20px;
+}
+.permission-footer {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 0px 40px 1px #09131531;
+}

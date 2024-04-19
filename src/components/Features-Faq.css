@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.main-body {
+    text-align: center;
+    padding: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+h1.title-text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.head-divider {
+    text-align: center;
+    border: 3px solid rgb(0, 51, 127);
+    width: 30px;
+}
+
+.title-divider {
+    border: 3px solid rgb(0, 51, 127);
+    width: 30px;
+}
+
+.container {
+    background: linear-gradient(180deg, rgb(224, 233, 246) 0%, rgb(255, 255, 255) 100%);
+    margin: 0 auto;
+    padding: 10rem;
+    max-width: 7000px;
+    color: var(--colors-neutral-greys-800);
+    font-family: "Work Sans-Bold", Helvetica;
+    border-radius: 20px;
+}
+
+h1.about-heading {
+    font-size: 62px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 72px;
+    text-align: center;
+}
+
+h5.side-heading{
+    font-weight: 500;
+}
+
+.text-content-body {
+    /* fnt-size: 40px; */
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: justify;
+    background-color: rgba(231, 237, 247, 0.95);
+    /* Slightly darker shade for text content */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.text-content {
+    margin: 30px 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.about {
+    color: #202020;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    margin: 0pt;
+    background-color: rgba(218, 228, 243, 0.95);
+    /* Slightly darker shade for text content */
+
+}

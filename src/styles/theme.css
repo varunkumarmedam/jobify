@@ -1,0 +1,39 @@
+.theme-light {
+    --text-color: rgb(62, 62, 62);
+    --dark-text: #ff0095;
+    --accent: #dbe7e4;
+    --button-border: #5E4B56;
+    --dark-background: #fcfcfc;
+    --light-text: #5E4B56;
+    --light-background: #EDDCD2;
+    --shadow: rgba(206, 206, 206, 0.75);
+
+}
+
+.theme-dark {
+    --text-color: rgb(225, 225, 225);
+    --dark-text: #292929;
+    --dark-background: #272727;
+    --light-background: #586F7C;
+    --accent: #b8dbd9;
+    --button-border: #b8dbd9;
+    --light-text: #F9F8F8;
+    --shadow: rgba(65, 65, 65, 0.75);
+}
+
+div.app-box {
+    background-color: var(--dark-background) !important;
+    color: var(--text-color) !important;
+}
+
+label {
+    color: var(--text-color) !important;
+}
+
+h5 {
+    color: var(--text-color) !important;
+}
+
+.shadow-box {
+    box-shadow: 5px 5px 10px 0px var(--shadow);
+}

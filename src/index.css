@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+html{
+  height: 100%;
+}
+#root{
+  height: 100%;
+}
+.App{
+  height: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.ReactModal__Overlay--after-open{
+  z-index: 100 !important;
+}
+/* react-modal css overriding */
+.feedback-modal {
+  width: 50rem !important
+}
+
+@media only screen and (max-width:768px) {
+  .feedback-modal {
+    width: 90% !important;
+    min-height: 90% !important;
+  }
+}
+
+/* Overridding react-tabs styles */
+.react-tabs__tab-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 20px 20px !important;
+  border-bottom: solid 2px rgba(128, 128, 128, 0.177) !important;
+}
+
+.react-tabs__tab--selected{
+  background-color: #3b83f6cf !important;
+  color: white !important;
+  /* font-size: 20px; */
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+  /* padding:  10px !important; */
+}
+
+input.company_logo_upload#file {
+  display: inline-block;
+  width: 100%;
+  padding: 120px 0 0 0;
+  height: 100px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png') center center no-repeat #f3f3f3;
+  border-radius: 20px;
+  background-size: 60px 60px;
+}

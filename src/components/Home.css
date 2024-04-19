@@ -1,0 +1,16 @@
+.main-footer-body{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+.main-footer-body a{
+    text-decoration: none;
+}
+
+.main-footer-body a:hover{
+    border-bottom: solid 1px rgb(0, 0, 123);
+}

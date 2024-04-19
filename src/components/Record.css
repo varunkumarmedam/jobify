@@ -1,0 +1,115 @@
+/* .App {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+} */
+.main-video {
+  width: 100%;
+  height: 80vh;
+  color: black;
+
+  /* background-color: #000; */
+}
+
+/* .cam-video {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 20%;
+    height: 20%;
+    border: 1px solid white;
+    border-radius: 5px;
+    z-index: 1;
+  } */
+
+.main-video {
+  width: 100%;
+  height: auto;
+  color: black;
+  /* background-color: #000; */
+}
+
+.cam-video {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  /* bottom: 10px; */
+  /* right: 10px; */
+  /* top: 50%; */
+  width: 0;
+  height: 0;
+  border: 2px solid white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.button-recordcontainer button {
+  justify-content: center;
+  padding: 15px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  height: auto;
+  transition: background-color 0.2s;
+}
+
+element.style {
+}
+.mt-5 {
+    margin-top: 3rem!important;
+}
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+.button-recordcontainer {
+    position: absolute;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    width: 100%;
+    /* bottom: 10px; */
+    /* left: 10px; */
+    color: black;
+    /* z-index: 10; */
+    flex-direction: column;
+}
+.button-recordcontainer button:hover {
+  background-color: #0056b3 !important;
+}
+
+button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+/* .button-recordcontainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 10px;
+  color: black;
+  z-index: 10; 
+} */
+/* .button-recordcontainer p {
+  transform: rotate(-35deg);
+  margin-bottom: 2rem;
+} */
+.testinfo p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 5rem;
+}
+.button-recordcontainer button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}

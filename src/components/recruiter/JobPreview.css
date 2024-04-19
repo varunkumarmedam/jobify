@@ -1,0 +1,15 @@
+.job-prev-company-box {
+    display: grid;
+    justify-items: center;
+}
+
+.skill-chip {
+    background-color: #DBEAFE;
+    color: #3B82F6;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+hr.normal-divider {
+    border: rgb(255, 255, 255) !important;
+}

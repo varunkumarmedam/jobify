@@ -1,0 +1,14 @@
+ .link-wrapper {
+  margin: 10px;
+  }
+ .link-10 {
+    align-self: stretch;
+    background-color: var(--colors-neutral-greys-0);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px #0000000d, 0px 0px 0px 1px #d0d1d6;
+    overflow: hidden;
+    position: relative;
+  }
+ .chomecontainer .row{
+    --bs-gutter-x:"0rem"
+  }

@@ -1,0 +1,54 @@
+.feedback-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.feedback-modal h2 {
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.feedback-modal textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.feedback-modal button {
+  margin-top: 15px;
+  margin-right: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.feedback-modal button:hover {
+  background-color: #0056b3;
+}
+
+.job-preview-modal .btn-light{
+  background-color: white !important;
+  color: black !important;
+}
+/* .feedback-modal button:last-child {
+  background-color: #f44336;
+} */
+
+/* .feedback-modal button:last-child:hover {
+  background-color: #e31c0a;
+} */

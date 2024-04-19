@@ -1,0 +1,210 @@
+.frame {
+  align-items: flex-start;
+  background-color: var(--colors-neutral-greys-0);
+  border-radius: 16px;
+  box-shadow: var(--shadow-1);
+  display: flex;
+  gap: 64px;
+  position: relative;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  transform: scale(0.9);
+  padding: 20px !important;
+}
+
+.frame .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+  position: relative;
+  margin: auto;
+}
+
+.frame .text-wrapper {
+  color: var(--colors-neutral-greys-800);
+  font-family: var(--h5-semibold-font-family);
+  font-size: var(--h5-semibold-font-size);
+  font-style: var(--h5-semibold-font-style);
+  font-weight: var(--h5-semibold-font-weight);
+  letter-spacing: var(--h5-semibold-letter-spacing);
+  line-height: var(--h5-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+
+
+
+.frame .dropdown-label {
+  display: flex;
+  height: 30px;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  cursor: pointer;
+  text-align: center;
+  opacity: 0.4;
+  background: var(--primary-main-500, #c5c9ce);
+  transition: all 0.3s;
+}
+.frame .dropdown-label.active {
+  background-color: var(--colors-primary-main-500);
+  border-radius: 8px;
+  opacity: 0.4;
+}
+
+.frame .dropdown-label + .dropdown-label {
+  margin-left: 10px;
+}
+.frame .frame-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: -0.5px;
+  margin-top: -0.5px;
+  position: relative;
+}
+
+
+
+.frame .placeholder-2 {
+  color: var(--colors-neutral-greys-500);
+  font-family: var(--b3-regular-font-family);
+  font-size: var(--b3-regular-font-size);
+  font-style: var(--b3-regular-font-style);
+  font-weight: var(--b3-regular-font-weight);
+  letter-spacing: var(--b3-regular-letter-spacing);
+  line-height: var(--b3-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame .div-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .text-wrapper-2 {
+  align-self: stretch;
+  color: var(--colors-neutral-greys-500);
+  font-family: var(--b3-semibold-font-family);
+  font-size: var(--b3-semibold-font-size);
+  font-style: var(--b3-semibold-font-style);
+  font-weight: var(--b3-semibold-font-weight);
+  letter-spacing: var(--b3-semibold-letter-spacing);
+  line-height: var(--b3-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+.frame .div-4 input {
+  width: 21.75rem;
+  padding: 8px;
+  border: 1px solid var(--colors-neutral-greys-200);
+  border-radius: 6px;
+  outline: none;
+}
+.frame .div-4 input.error {
+  border-color: red;
+}
+
+.frame .div-4 .text-wrapper-3 {
+  color: red;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+
+
+.frame .text-wrapper-3 {
+  color: var(--colors-neutral-greys-400);
+  flex: 1;
+  font-family: var(--b3-regular-font-family);
+  font-size: var(--b3-regular-font-size);
+  font-style: var(--b3-regular-font-style);
+  font-weight: var(--b3-regular-font-weight);
+  height: 20px;
+  letter-spacing: var(--b3-regular-letter-spacing);
+  line-height: var(--b3-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.frame .link button {
+  border-radius: 8px;
+  /* opacity: 0.4; */
+  /* background: var(--primary-main-500, #3B82F6); */
+  background-color: #2563EB;
+  border: none;
+  padding: 8px;
+  width: 21.75rem;
+}
+
+
+.frame .text-wrapper-4 {
+  color: var(--colors-neutral-greys-0);
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+.nav-item .nav-link.active {
+  /* background-color:var(--primary-main-500, #aab7f0); */
+  color: var(--colors-neutral-greys-0);
+  background-color: #2563EB;
+  font-weight: bold;
+}
+
+.nav-item .nav-link {
+  color: black;
+  font-weight: normal;
+  gap: 50px;
+  padding: 7px 10px;
+}
+
+.custom-tabs {
+  display: flex;
+  /* gap: 50px;  */
+}
+
+.custom-tab {
+  padding: 5px 50px;
+  color: black;
+  text-decoration: none;
+}
+
+.custom-tab.active {
+  background-color: rgb(230, 230, 230);
+}
+
+.jobify-image {
+  position: absolute;
+  width: 100px;
+  left: -20px;
+  top: -70px;
+}

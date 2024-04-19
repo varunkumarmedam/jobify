@@ -1,0 +1,272 @@
+:root {
+    --b3-regular-font-family: "Inter-Regular", Helvetica;
+    --b3-regular-font-size: 14px;
+    --b3-regular-font-style: normal;
+    --b3-regular-font-weight: 400;
+    --b3-regular-letter-spacing: 0px;
+    --b3-regular-line-height: normal;
+    --b3-semibold-font-family: "Inter-SemiBold", Helvetica;
+    --b3-semibold-font-size: 14px;
+    --b3-semibold-font-style: normal;
+    --b3-semibold-font-weight: 600;
+    --b3-semibold-letter-spacing: 0px;
+    --b3-semibold-line-height: normal;
+    --background-white: rgba(255, 255, 255, 1);
+    --body-1-bold-font-family: "PlusJakarta Sans-Bold", Helvetica;
+    --body-1-bold-font-size: 16px;
+    --body-1-bold-font-style: normal;
+    --body-1-bold-font-weight: 700;
+    --body-1-bold-letter-spacing: 0px;
+    --body-1-bold-line-height: normal;
+    --body-2-bold-font-family: "PlusJakarta Sans-Bold", Helvetica;
+    --body-2-bold-font-size: 14px;
+    --body-2-bold-font-style: normal;
+    --body-2-bold-font-weight: 700;
+    --body-2-bold-letter-spacing: 0px;
+    --body-2-bold-line-height: normal;
+    --body-2-regular-font-family: "PlusJakarta Sans-Regular", Helvetica;
+    --body-2-regular-font-size: 14px;
+    --body-2-regular-font-style: normal;
+    --body-2-regular-font-weight: 400;
+    --body-2-regular-letter-spacing: 0px;
+    --body-2-regular-line-height: normal;
+    --caption-1-medium-font-family: "PlusJakarta Sans-Medium", Helvetica;
+    --caption-1-medium-font-size: 12px;
+    --caption-1-medium-font-style: normal;
+    --caption-1-medium-font-weight: 500;
+    --caption-1-medium-letter-spacing: 0px;
+    --caption-1-medium-line-height: normal;
+    --colors-neutral-greys-0: rgba(255, 255, 255, 1);
+    --colors-neutral-greys-100: rgba(241, 245, 249, 1);
+    --colors-neutral-greys-200: rgba(226, 232, 240, 1);
+    --colors-neutral-greys-400: rgba(148, 163, 184, 1);
+    --colors-neutral-greys-500: rgba(100, 116, 139, 1);
+    --colors-neutral-greys-800: rgba(30, 41, 59, 1);
+    --colors-neutral-greys-950: rgba(2, 6, 23, 1);
+    --colors-primary-main-500: rgba(59, 130, 246, 1);
+    --h1-xbold-font-family: "PlusJakarta Sans-ExtraBold", Helvetica;
+    --h1-xbold-font-size: 48px;
+    --h1-xbold-font-style: normal;
+    --h1-xbold-font-weight: 800;
+    --h1-xbold-letter-spacing: 0px;
+    --h1-xbold-line-height: normal;
+    --h2-xbold-font-family: "PlusJakarta Sans-ExtraBold", Helvetica;
+    --h2-xbold-font-size: 36px;
+    --h2-xbold-font-style: normal;
+    --h2-xbold-font-weight: 800;
+    --h2-xbold-letter-spacing: 0px;
+    --h2-xbold-line-height: normal;
+    --h3-xbold-font-family: "PlusJakarta Sans-ExtraBold", Helvetica;
+    --h3-xbold-font-size: 24px;
+    --h3-xbold-font-style: normal;
+    --h3-xbold-font-weight: 800;
+    --h3-xbold-letter-spacing: 0px;
+    --h3-xbold-line-height: normal;
+    --h4-xbold-font-family: "PlusJakarta Sans-ExtraBold", Helvetica;
+    --h4-xbold-font-size: 20px;
+    --h4-xbold-font-style: normal;
+    --h4-xbold-font-weight: 800;
+    --h4-xbold-letter-spacing: 0px;
+    --h4-xbold-line-height: normal;
+    --h5-semibold-font-family: "Inter-SemiBold", Helvetica;
+    --h5-semibold-font-size: 20px;
+    --h5-semibold-font-style: normal;
+    --h5-semibold-font-weight: 600;
+    --h5-semibold-letter-spacing: 0px;
+    --h5-semibold-line-height: normal;
+    --neutral-grey-2: rgba(89, 92, 106, 1);
+    --neutral-grey-3: rgba(174, 176, 183, 1);
+    --neutral-grey-4: rgba(215, 216, 220, 1);
+    --neutral-grey-5: rgba(235, 236, 240, 1);
+    --neutralgrey-1: rgba(23, 25, 34, 1);
+    --primary-color-2: rgba(235, 112, 117, 1);
+    --secondary-color-1: rgba(89, 178, 79, 1);
+    --shadow-1: 0px 4px 20px 0px rgba(9, 19, 21, 0.08);
+  }
+  
+  /*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-colors-mode="light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+  
+  [data-colors-mode="light"] {
+    --colors-neutral-greys-0: rgba(255, 255, 255, 1);
+    --colors-neutral-greys-100: rgba(241, 245, 249, 1);
+    --colors-neutral-greys-200: rgba(226, 232, 240, 1);
+    --colors-neutral-greys-400: rgba(148, 163, 184, 1);
+    --colors-neutral-greys-800: rgba(30, 41, 59, 1);
+    --colors-neutral-greys-950: rgba(2, 6, 23, 1);
+  }
+  
+  [data-colors-mode="dark"] {
+    --colors-neutral-greys-0: rgba(1, 2, 7, 1);
+    --colors-neutral-greys-100: rgba(15, 23, 42, 1);
+    --colors-neutral-greys-200: rgba(30, 41, 59, 1);
+    --colors-neutral-greys-400: rgba(71, 85, 105, 1);
+    --colors-neutral-greys-800: rgba(226, 232, 240, 1);
+    --colors-neutral-greys-950: rgba(248, 250, 252, 1);
+  }
+
+
+
+My Team
+
+Feedback
+
+Home
+
+
+React
+jsx
++
+CSS
+index.jsx
+style.css
+styleguide.css
+:root {
+  --b3-regular-font-family: "Inter-Regular", Helvetica;
+  --b3-regular-font-size: 14px;
+  --b3-regular-font-style: normal;
+  --b3-regular-font-weight: 400;
+  --b3-regular-letter-spacing: 0px;
+  --b3-regular-line-height: normal;
+  --b3-semibold-font-family: "Inter-SemiBold", Helvetica;
+  --b3-semibold-font-size: 14px;
+  --b3-semibold-font-style: normal;
+  --b3-semibold-font-weight: 600;
+  --b3-semibold-letter-spacing: 0px;
+  --b3-semibold-line-height: normal;
+  --background-white: rgba(255, 255, 255, 1);
+  --body-1-bold-font-family: "PlusJakarta Sans-Bold", Helvetica;
+  --body-1-bold-font-size: 16px;
+  --body-1-bold-font-style: normal;
+  --body-1-bold-font-weight: 700;
+  --body-1-bold-letter-spacing: 0px;
+  --body-1-bold-line-height: normal;
+  --body-2-bold-font-family: "PlusJakarta Sans-Bold", Helvetica;
+  --body-2-bold-font-size: 14px;
+  --body-2-bold-font-style: normal;
+  --body-2-bold-font-weight: 700;
+  --body-2-bold-letter-spacing: 0px;
+  --body-2-bold-line-height: normal;
+  --body-2-regular-16px-font-family: "MessinaSans-Regular", Helvetica;
+  --body-2-regular-16px-font-size: 16px;
+  --body-2-regular-16px-font-style: normal;
+  --body-2-regular-16px-font-weight: 400;
+  --body-2-regular-16px-letter-spacing: -0.48px;
+  --body-2-regular-16px-line-height: 24px;
+  --body-2-regular-font-family: "PlusJakarta Sans-Regular", Helvetica;
+  --body-2-regular-font-size: 14px;
+  --body-2-regular-font-style: normal;
+  --body-2-regular-font-weight: 400;
+  --body-2-regular-letter-spacing: 0px;
+  --body-2-regular-line-height: normal;
+  --c1-regular-font-family: "Inter-Regular", Helvetica;
+  --c1-regular-font-size: 12px;
+  --c1-regular-font-style: normal;
+  --c1-regular-font-weight: 400;
+  --c1-regular-letter-spacing: 0px;
+  --c1-regular-line-height: normal;
+  --caption-1-medium-font-family: "PlusJakarta Sans-Medium", Helvetica;
+  --caption-1-medium-font-size: 12px;
+  --caption-1-medium-font-style: normal;
+  --caption-1-medium-font-weight: 500;
+  --caption-1-medium-letter-spacing: 0px;
+  --caption-1-medium-line-height: normal;
+  --colors-neutral-greys-0: rgba(255, 255, 255, 1);
+  --colors-neutral-greys-100: rgba(241, 245, 249, 1);
+  --colors-neutral-greys-200: rgba(226, 232, 240, 1);
+  --colors-neutral-greys-400: rgba(148, 163, 184, 1);
+  --colors-neutral-greys-50: rgba(248, 250, 252, 1);
+  --colors-neutral-greys-500: rgba(100, 116, 139, 1);
+  --colors-neutral-greys-600: rgba(71, 85, 105, 1);
+  --colors-neutral-greys-800: rgba(30, 41, 59, 1);
+  --colors-neutral-greys-950: rgba(2, 6, 23, 1);
+  --colors-primary-main-500: rgba(59, 130, 246, 1);
+  --colors-system-error-500: rgba(239, 68, 68, 1);
+  --colors-system-success-500: rgba(34, 197, 94, 1);
+  --gray-4: rgba(171, 183, 189, 1);
+  --h1-xbold-font-family: "PlusJakarta Sans-ExtraBold", Helvetica;
+  --h1-xbold-font-size: 48px;
+  --h1-xbold-font-style: normal;
+  --h1-xbold-font-weight: 800;
+  --h1-xbold-letter-spacing: 0px;
+  --h1-xbold-line-height: normal;
+  --h2-xbold-font-family: "PlusJakarta Sans-ExtraBold", Helvetica;
+  --h2-xbold-font-size: 36px;
+  --h2-xbold-font-style: normal;
+  --h2-xbold-font-weight: 800;
+  --h2-xbold-letter-spacing: 0px;
+  --h2-xbold-line-height: normal;
+  --h3-xbold-font-family: "PlusJakarta Sans-ExtraBold", Helvetica;
+  --h3-xbold-font-size: 24px;
+  --h3-xbold-font-style: normal;
+  --h3-xbold-font-weight: 800;
+  --h3-xbold-letter-spacing: 0px;
+  --h3-xbold-line-height: normal;
+  --h4-xbold-font-family: "PlusJakarta Sans-ExtraBold", Helvetica;
+  --h4-xbold-font-size: 20px;
+  --h4-xbold-font-style: normal;
+  --h4-xbold-font-weight: 800;
+  --h4-xbold-letter-spacing: 0px;
+  --h4-xbold-line-height: normal;
+  --h5-semibold-font-family: "Inter-SemiBold", Helvetica;
+  --h5-semibold-font-size: 20px;
+  --h5-semibold-font-style: normal;
+  --h5-semibold-font-weight: 600;
+  --h5-semibold-letter-spacing: 0px;
+  --h5-semibold-line-height: normal;
+  --neutral-grey-2: rgba(89, 92, 106, 1);
+  --neutral-grey-3: rgba(174, 176, 183, 1);
+  --neutral-grey-4: rgba(215, 216, 220, 1);
+  --neutral-grey-5: rgba(235, 236, 240, 1);
+  --neutralgrey-1: rgba(23, 25, 34, 1);
+  --primary-brand: rgba(49, 193, 191, 1);
+  --primary-color-2: rgba(235, 112, 117, 1);
+  --secondary-color-1: rgba(89, 178, 79, 1);
+  --shadow-1: 0px 4px 20px 0px rgba(9, 19, 21, 0.08);
+  --shadow-2: 0px 4px 40px 0px rgba(9, 19, 21, 0.08);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-colors-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-colors-mode="light"] {
+  --colors-neutral-greys-0: rgba(255, 255, 255, 1);
+  --colors-neutral-greys-100: rgba(241, 245, 249, 1);
+  --colors-neutral-greys-200: rgba(226, 232, 240, 1);
+  --colors-neutral-greys-400: rgba(148, 163, 184, 1);
+  --colors-neutral-greys-50: rgba(248, 250, 252, 1);
+  --colors-neutral-greys-600: rgba(71, 85, 105, 1);
+  --colors-neutral-greys-800: rgba(30, 41, 59, 1);
+  --colors-neutral-greys-950: rgba(2, 6, 23, 1);
+}
+
+[data-colors-mode="dark"] {
+  --colors-neutral-greys-0: rgba(1, 2, 7, 1);
+  --colors-neutral-greys-100: rgba(15, 23, 42, 1);
+  --colors-neutral-greys-200: rgba(30, 41, 59, 1);
+  --colors-neutral-greys-400: rgba(71, 85, 105, 1);
+  --colors-neutral-greys-50: rgba(2, 6, 23, 1);
+  --colors-neutral-greys-600: rgba(148, 163, 184, 1);
+  --colors-neutral-greys-800: rgba(226, 232, 240, 1);
+  --colors-neutral-greys-950: rgba(248, 250, 252, 1);
+}
+
+  
